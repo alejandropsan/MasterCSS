@@ -1,0 +1,32 @@
+body {
+    background-color: azure;
+    background-image: url(img/fondoblancotabla.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* CUANDO HAY SCROLL EL FONDO NUNCA SE MUEVE*/
+    background-attachment: fixed;
+    /* ELIGE QUE PARTE DEL FONDO SE VE */
+    background-position: right bottom;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+#caja {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: aquamarine;
+    color: #ccc;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    vertical-align: top;
+}
+
+h2 {
+    color: brown;
+    background-image: url(img/fondo-blue-light.png);
+}
+
+p {
+    text-indent: 15px;
+}
